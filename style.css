@@ -286,3 +286,15 @@ body {
         justify-content: center;
     }
 }
+
+/* Размещение карточки поцентру */
+.centered-card-wrapper {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+}
+
+.centered-card-wrapper .wish-card {
+    max-width: 400px;
+    width: 100%;
+}
